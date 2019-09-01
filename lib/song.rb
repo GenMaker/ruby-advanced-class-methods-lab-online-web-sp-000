@@ -16,5 +16,7 @@ class Song
     song
   end
 
+  def song_by_new_name
+
 
 end
