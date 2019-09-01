@@ -55,7 +55,7 @@ class Song
     title = split_file_name[1].gsub(".mp3", "")
     # the constructor should return a new Song instance with the song name set to Blank Space and the artist_name set to Taylor Swift. T
     song = self.new
-    song.name = title
+    song.name = song_name
     song.artist_name = artist_name
   end
 
