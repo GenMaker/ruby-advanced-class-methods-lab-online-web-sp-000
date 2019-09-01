@@ -63,7 +63,9 @@ class Song
   def self.create_from_filename (filename)
     #Song.create_from_filename class method should not only parse the filename correctly but should also save the Song instance that was created.
     result = self.new_from_filename(filename)
-    
+    song = self.new
+    song.name = result.name
+    song.
 
   end
 
