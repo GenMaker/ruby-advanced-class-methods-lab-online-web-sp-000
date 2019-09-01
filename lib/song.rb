@@ -69,7 +69,7 @@ class Song
     song
   end
 
-  
+  def destry_all
 
 
 end
