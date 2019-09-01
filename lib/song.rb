@@ -28,7 +28,7 @@ class Song
     song
   end
 
-  def self.find_by_name(song)
+  def self.find_by_name(name)
 
   end
 
