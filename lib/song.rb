@@ -40,6 +40,7 @@ class Song
     else
       song = self.create
       self.all << title
+      song
     end
   end
 
