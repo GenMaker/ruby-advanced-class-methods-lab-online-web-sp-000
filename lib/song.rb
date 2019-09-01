@@ -16,7 +16,9 @@ class Song
     song
   end
 
-  def self.by_new_name()
+  def self.by_new_name(song)
+    
+  end
 
 
 end
