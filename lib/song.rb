@@ -53,7 +53,10 @@ class Song
     split_file_name = file_name.split(" - ")
     artist_name = split_file_name[0]
     title = split_file_name[1]
-    
+    # the constructor should return a new Song instance with the song name set to Blank Space and the artist_name set to Taylor Swift. T
+    song = self.new
+    song.name = title
+    song.artist_name = artist_name
   end
 
 end
