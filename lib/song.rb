@@ -48,7 +48,12 @@ class Song
     self.all.sort_by {|song| song.name}
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(file_name)
+    #("Thundercat - For Love I Come.mp3")
+    split_file_name = file_name.split(" - ")
+    artist_name = split_file_name[0]
+    title = split_file_name[1]
+    
   end
 
 end
