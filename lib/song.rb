@@ -35,15 +35,15 @@ class Song
   end
 
   def self.find_or_create_by_name (title)
-    if  self.all.select {|song| song.title == title}
-      song
+    #either return a matching song instance with that name
+    result = self.find_by_name (title)
+    if  result
+      result
     else
-      song = self.create
-      self.all << title
-      self.all
+      self.create_by_name (title)
     end
   end
 
-
+  
 
 end
